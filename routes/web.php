@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('items.tablesatu');
 });
+
+Route::get('/data_tables',function(){
+    return view('items.data_tables');
+});
+// Route::get('/data_tables',function(){
+//     return view('items.create');
+// });
+
